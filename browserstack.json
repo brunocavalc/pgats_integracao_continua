@@ -1,0 +1,37 @@
+{
+    "auth": {
+        "username": "bruno_cWNL5I",
+        "access_key": "9Up56N2zCpQPLdU6mGX6"
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 10",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        }
+    ],
+    "run_settings": {
+        "cypress_config_file": "./cypress.config.js",
+        "cypress_version": "13.latest",
+        "project_name": "Trabalho de Automação Web PGATS",
+        "build_name": "build-name",
+        "exclude": [],
+        "parallels": 1,
+        "npm_dependencies": {
+            "@faker-js/faker": "^8.4.1",
+            "cypress-mochawesome-reporter": "^3.8.2"
+        },
+        "package_config_options": {},
+        "headless": true
+    },
+    "connection_settings": {
+        "local": false,
+        "local_identifier": null,
+        "local_mode": null,
+        "local_config_file": null
+    },
+    "disable_usage_reporting": false
+}
